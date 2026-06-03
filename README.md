@@ -18,7 +18,7 @@
 
 ## 图文介绍
 
-### 游戏帧黑底透明化
+### 游戏帧背景透明化
 
 ![Remove BG sprite checker preview](assets/intro-01-sprite-checker.png)
 
