@@ -1,10 +1,25 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+
+# Local verification outputs
 *.tmp
 *.log
+tmp-verify/
 remove-bg-checker-contact.png
 *_removebg.png
-tmp-verify/

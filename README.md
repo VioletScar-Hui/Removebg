@@ -186,6 +186,7 @@ Removebg/
   README.md
   README.en.md
   CHANGELOG.md
+  LICENSE
   assets/
     intro-01-sprite-checker.png
   remove-bg/
