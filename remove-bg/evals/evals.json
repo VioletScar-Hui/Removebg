@@ -1,0 +1,23 @@
+{
+  "skill_name": "remove-bg",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把这几张游戏帧的黑色背景扣除并保存到原地址",
+      "expected_output": "The assistant uses the sprite workflow, preserves original files, writes *_removebg.png beside the source images, creates a checker contact sheet, and verifies transparency.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我把这张商品图抠出来，背景透明，效果类似 remove.bg，保存到原地址",
+      "expected_output": "The assistant uses the photo/product workflow when the background is complex, preserves the original image, writes a transparent PNG beside the source image, and checks the output.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "给这张人像去背景，不要上传到第三方网站",
+      "expected_output": "The assistant prefers local rembg processing, asks approval before dependency/model downloads, and does not upload the image.",
+      "files": []
+    }
+  ]
+}
